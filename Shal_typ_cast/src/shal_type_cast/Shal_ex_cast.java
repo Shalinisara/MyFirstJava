@@ -22,8 +22,12 @@ public class Shal_ex_cast {
 		int i =(int)d;
 		System.out.println("Value of dbl to long is "+ l);
 		System.out.println("Value of dbl to int is "+ i);
-		
-		
+		String s = "990";
+		int s1 = Integer.parseInt(s);
+		System.out.println("String to int : "+ s1);
+		float f1 = Float.parseFloat(s);
+		System.out.println("Srting to float : "+ f1);
+	
 		
 
 	}
